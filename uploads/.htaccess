@@ -1,0 +1,82 @@
+# Sécurité pour le répertoire uploads
+# Empêcher l'exécution de scripts
+
+# Désactiver l'exécution PHP
+php_flag engine off
+
+# Bloquer l'accès aux fichiers sensibles
+<Files "*.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "*.php3">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "*.php4">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "*.php5">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "*.phtml">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "*.pl">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "*.py">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "*.jsp">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "*.asp">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "*.sh">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "*.cgi">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Autoriser seulement certains types de fichiers
+<FilesMatch "\.(pdf|doc|docx|txt|rtf)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Empêcher l'affichage du contenu des répertoires
+Options -Indexes
+
+# Headers de sécurité pour les fichiers téléchargés
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options nosniff
+    Header set X-Frame-Options DENY
+    Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# Forcer le téléchargement pour certains types de fichiers
+<FilesMatch "\.(pdf|doc|docx)$">
+    Header set Content-Disposition "attachment"
+</FilesMatch>

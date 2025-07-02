@@ -1,0 +1,62 @@
+2025-07-01 04:10:17 - Profile update attempt for user ID: 4
+2025-07-01 04:10:17 - Existing profile: not found
+2025-07-01 04:10:17 - Data to update: {"user_id":4,"nom_entreprise":"ANOR","secteur_activite":"Industrie \/ Production","taille_entreprise":"ETI (250-4999 salari\u00e9s)","description":"BKBNBN?N..?\/.","adresse":"BASTOS-ANOR-Carrefour Elecam","ville":"Yaounde","code_postal":"14966","telephone":"+237698628285","site_web":"https:\/\/www.anor.cm","linkedin":"","contact_nom":"","contact_prenom":"","contact_fonction":"","contact_email":"","contact_telephone":""}
+2025-07-01 04:10:17 - Creating new profile
+2025-07-01 04:10:18 - Create result: failed
+2025-07-01 04:10:18 - Error message set in session
+2025-07-01 04:26:12 - Profile update attempt for user ID: 4
+2025-07-01 04:26:12 - Existing profile: found
+2025-07-01 04:26:12 - Data to update: {"user_id":4,"nom_entreprise":"anor","secteur_activite":"Industrie \/ Production","taille_entreprise":"ETI (250-4999 salari\u00e9s)","description":"normes qualit\u00e9s normes qualit\u00e9 controle normes qualit\u00e9s controles normes qualit\u00e9","adresse":"Yaounde-Bastos","ville":"Yaounde","code_postal":"14966","telephone":"+237 698628285","site_web":"https:\/\/www.anor.cm","linkedin":"","contact_nom":"","contact_prenom":"","contact_fonction":"","contact_email":"","contact_telephone":""}
+2025-07-01 04:26:12 - Updating existing profile with ID: 1
+2025-07-01 04:26:12 - ProfilEntreprise::update - SQL: UPDATE profils_entreprises SET
+                        nom_entreprise = :nom_entreprise,
+                        secteur_activite = :secteur_activite,
+                        taille_entreprise = :taille_entreprise,
+                        description = :description,
+                        adresse = :adresse,
+                        ville = :ville,
+                        code_postal = :code_postal,
+                        telephone = :telephone,
+                        site_web = :site_web,
+                        linkedin = :linkedin,
+                        contact_nom = :contact_nom,
+                        contact_prenom = :contact_prenom,
+                        contact_fonction = :contact_fonction,
+                        contact_email = :contact_email,
+                        contact_telephone = :contact_telephone
+                    WHERE id = :id
+2025-07-01 04:26:12 - ProfilEntreprise::update - ID: 1
+2025-07-01 04:26:12 - ProfilEntreprise::update - Data: {"user_id":4,"nom_entreprise":"anor","secteur_activite":"Industrie \/ Production","taille_entreprise":"ETI (250-4999 salari\u00e9s)","description":"normes qualit\u00e9s normes qualit\u00e9 controle normes qualit\u00e9s controles normes qualit\u00e9","adresse":"Yaounde-Bastos","ville":"Yaounde","code_postal":"14966","telephone":"+237 698628285","site_web":"https:\/\/www.anor.cm","linkedin":"","contact_nom":"","contact_prenom":"","contact_fonction":"","contact_email":"","contact_telephone":""}
+2025-07-01 04:26:12 - ProfilEntreprise::update - Params: {":id":1,":nom_entreprise":"anor",":secteur_activite":"Industrie \/ Production",":taille_entreprise":"ETI (250-4999 salari\u00e9s)",":description":"normes qualit\u00e9s normes qualit\u00e9 controle normes qualit\u00e9s controles normes qualit\u00e9",":adresse":"Yaounde-Bastos",":ville":"Yaounde",":code_postal":"14966",":telephone":"+237 698628285",":site_web":"https:\/\/www.anor.cm",":linkedin":"",":contact_nom":"",":contact_prenom":"",":contact_fonction":"",":contact_email":"",":contact_telephone":""}
+2025-07-01 04:26:12 - ProfilEntreprise::update - Execute result: true
+2025-07-01 04:26:12 - ProfilEntreprise::update - Rows affected: 1
+2025-07-01 04:26:12 - Update result: success
+2025-07-01 04:26:12 - Success message set in session
+2025-07-01 09:41:41 - Profile update attempt for user ID: 4
+2025-07-01 09:41:41 - Existing profile: found
+2025-07-01 09:41:41 - Data to update: {"user_id":4,"nom_entreprise":"ANOR","secteur_activite":"Industrie \/ Production","taille_entreprise":"ETI (250-4999 salari\u00e9s)","description":"nbj,gkjgkjhgjhgv","adresse":"BASTOS-ANOR-Carrefour Elecam","ville":"Yaounde","code_postal":"14966","telephone":"+237698628285","site_web":"https:\/\/www.anor.cm","linkedin":"","contact_nom":"","contact_prenom":"","contact_fonction":"","contact_email":"","contact_telephone":""}
+2025-07-01 09:41:41 - Updating existing profile with ID: 1
+2025-07-01 09:41:41 - ProfilEntreprise::update - SQL: UPDATE profils_entreprises SET
+                        nom_entreprise = :nom_entreprise,
+                        secteur_activite = :secteur_activite,
+                        taille_entreprise = :taille_entreprise,
+                        description = :description,
+                        adresse = :adresse,
+                        ville = :ville,
+                        code_postal = :code_postal,
+                        telephone = :telephone,
+                        site_web = :site_web,
+                        linkedin = :linkedin,
+                        contact_nom = :contact_nom,
+                        contact_prenom = :contact_prenom,
+                        contact_fonction = :contact_fonction,
+                        contact_email = :contact_email,
+                        contact_telephone = :contact_telephone
+                    WHERE id = :id
+2025-07-01 09:41:41 - ProfilEntreprise::update - ID: 1
+2025-07-01 09:41:41 - ProfilEntreprise::update - Data: {"user_id":4,"nom_entreprise":"ANOR","secteur_activite":"Industrie \/ Production","taille_entreprise":"ETI (250-4999 salari\u00e9s)","description":"nbj,gkjgkjhgjhgv","adresse":"BASTOS-ANOR-Carrefour Elecam","ville":"Yaounde","code_postal":"14966","telephone":"+237698628285","site_web":"https:\/\/www.anor.cm","linkedin":"","contact_nom":"","contact_prenom":"","contact_fonction":"","contact_email":"","contact_telephone":""}
+2025-07-01 09:41:41 - ProfilEntreprise::update - Params: {":id":1,":nom_entreprise":"ANOR",":secteur_activite":"Industrie \/ Production",":taille_entreprise":"ETI (250-4999 salari\u00e9s)",":description":"nbj,gkjgkjhgjhgv",":adresse":"BASTOS-ANOR-Carrefour Elecam",":ville":"Yaounde",":code_postal":"14966",":telephone":"+237698628285",":site_web":"https:\/\/www.anor.cm",":linkedin":"",":contact_nom":"",":contact_prenom":"",":contact_fonction":"",":contact_email":"",":contact_telephone":""}
+2025-07-01 09:41:41 - ProfilEntreprise::update - Execute result: true
+2025-07-01 09:41:41 - ProfilEntreprise::update - Rows affected: 1
+2025-07-01 09:41:41 - Update result: success
+2025-07-01 09:41:41 - Success message set in session
