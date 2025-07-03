@@ -118,7 +118,7 @@
                                 <span class="text-warning"><i class="fas fa-exclamation-triangle"></i> À compléter</span>
                             <?php endif; ?>
                         </p>
-                        <small class="text-muted"><?= htmlspecialchars($completion_percentage) ?>% complété</small>
+                        <small class="text-muted"><?= htmlspecialchars($completionPercentage ?? 0) ?>% complété</small>
                     </div>
                 </div>
             </div>
